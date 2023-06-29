@@ -43,6 +43,7 @@ What was the average, median, minimum and maximum trip duration in minutes (with
 ![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/0c1b545c-ba13-496d-8509-226e24eb12bb)
 
 What was the average, median, minimum and maximum trip distance in km?
+
 ![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/b8d30c44-99ea-4f58-aa14-7b4064a343e7) ![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/ba1e03d9-b02b-45b7-ac31-2d41d1e26cbd)
 
 
