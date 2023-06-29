@@ -1,3 +1,6 @@
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/60224e2d-ab9b-40cd-afa3-d7357d5d3050)
+
+
 # Big Data Processing with Spark
 Analysing a large dataset using Spark: 
 1. Upload available data into an Azure Blob Storage.
