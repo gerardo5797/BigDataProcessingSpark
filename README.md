@@ -1,11 +1,12 @@
 # Big Data Processing with Spark
-Analysing a large dataset using Spark: Upload available data, perform data transformation and analysis on it and finally train a Machine Learning algorithm for predicting a continuous outcome.
+Analysing a large dataset using Spark: 
+1. Upload available data into an Azure Blob Storage.
+2. Perform data transformation and analysis on it.
+3. Train a Machine Learning algorithm for predicting a continuous outcome.
 
 ## Dataset
 
-The New York City Taxi and Limousine Commission is the agency responsible for licensing and regulating New York City’s taxi cabs. TLC has publicly published millions of trip records from both yellow and green taxi cabs. 
-
-Records include fields regarding pick-up and drop-off dates/times, locations, trip distances, fares, rate types, payment types, and driver-reported passenger counts.
+The New York City Taxi and Limousine Commission is the agency responsible for licensing and regulating New York City’s taxi cabs. TLC has publicly published millions of trip records from both yellow and green taxi cabs. Records include fields regarding pick-up and drop-off dates/times, locations, trip distances, fares, rate types, payment types, and driver-reported passenger counts.
 
 ## PART 1: Data Ingestion and Preparation
 Download the dataset for yellow and green taxi cabs from Jan 2019 to Apr 2022 and load it into an Azure Blob Storage.
@@ -62,7 +63,6 @@ Average distance per dollar (km per $)
 Build two different ML models (Linear Regression and Decision Tree) using Spark ML pipelines to predict the Total fare amount of a trip:
 Use all data except Apr 2022 to train and validate your models
 Use the RMSE score to assess your models.
-Choose your best model.
-Predicr the Apr 2022 trips and calculate the RMSE on your predictions.
+Predict the Apr 2022 trips and calculate the RMSE on your predictions.
 
 
