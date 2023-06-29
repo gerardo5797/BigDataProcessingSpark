@@ -11,7 +11,8 @@ Analysing a large dataset using Spark:
 
 The New York City Taxi and Limousine Commission is the agency responsible for licensing and regulating New York City’s taxi cabs. TLC has publicly published millions of trip records from both yellow and green taxi cabs. Records include fields regarding pick-up and drop-off dates/times, locations, trip distances, fares, rate types, payment types, and driver-reported passenger counts.
 
-## PART 1: Data Ingestion and Preparation
+## PART 1: Data Ingestion and Preparation (DataIngestionAndPreparation.ipynb)
+
 Download the dataset for yellow and green taxi cabs from Jan 2019 to Apr 2022 and load it into an Azure Blob Storage.
 On Databricks, read the files from the Azure storage and make a copy of it into DBFS. 
 There is an issue with the datatype of “airport_fee” in the yellow dataset, convert it to double instead of integer to match with Green Taxis format.
@@ -30,7 +31,7 @@ Rename fields
 Merging Dataframes (only relevant fields, Yellow-Green)
 Export the combined data into a parquet file in DBFS and then load it as a table or view.
 
-## PART 2: Data Analysis and Business Questions
+## PART 2: Data Analysis and Business Questions (DataAnalysisBusinessQuestions.ipynb)
 
 1. For each year and month (e.g January 2020 => “2020-01-01” or “2020-01” or “Jan 2020”:
 What was the total number of trips?
@@ -61,7 +62,7 @@ Average distance per dollar (km per $)
 
 6. Which duration bin will you advise a taxi driver to target to maximise his income?
 
-## PART 3: Modelling
+## PART 3: Modelling and Predictions (ModelPreparation.ipynb & PredictionsApril2022.ipynb)
 
 Build two different ML models (Linear Regression and Decision Tree) using Spark ML pipelines to predict the Total fare amount of a trip:
 Use all data except Apr 2022 to train and validate your models
