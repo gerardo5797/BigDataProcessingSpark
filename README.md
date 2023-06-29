@@ -1,6 +1,3 @@
-![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/60224e2d-ab9b-40cd-afa3-d7357d5d3050)
-
-
 # Big Data Processing with Spark
 Analysing a large dataset using Spark: 
 1. Upload available data into an Azure Blob Storage.
@@ -43,12 +40,19 @@ What was the average amount paid per passenger (using total_amount)?
 
 2. For each taxi colour (yellow and green):
 What was the average, median, minimum and maximum trip duration in minutes (with 2 decimals, eg. 90 seconds = 1.50 min)?
-What was the average, median, minimum and maximum trip distance in km?
-What was the average, median, minimum and maximum speed in km per hour?
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/0c1b545c-ba13-496d-8509-226e24eb12bb)
 
-3. What was the percentage of trips where drivers received tips?
-4. For trips where the driver received tips, what was the percentage where the driver received tips of at least $10.
-5. Classify each trip into bins of durations:
+What was the average, median, minimum and maximum trip distance in km?
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/b8d30c44-99ea-4f58-aa14-7b4064a343e7) ![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/ba1e03d9-b02b-45b7-ac31-2d41d1e26cbd)
+
+
+What was the average, median, minimum and maximum speed in km per hour?
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/b8d30c44-99ea-4f58-aa14-7b4064a343e7) ![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/610962ec-d66f-4e4b-b222-d624755dd341)
+
+
+4. What was the percentage of trips where drivers received tips?
+5. For trips where the driver received tips, what was the percentage where the driver received tips of at least $10.
+6. Classify each trip into bins of durations:
 Under 5 Mins
 From 5 mins to 10 mins
 From 10 mins to 20 mins
