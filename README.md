@@ -38,6 +38,13 @@ What was the average number of passengers?
 What was the average amount paid per trip (using total_amount)?
 What was the average amount paid per passenger (using total_amount)?
 
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/19dfb3bc-908d-476c-9b35-7ccdfa2a2884)
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/49de96ee-82ec-4620-b20b-4ea546e2870d)
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/e2c2c25b-604f-45f4-a426-03bab412718a)
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/af686cad-3575-4342-917e-708b62c57cde)
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/446781f4-c9c8-4c1f-98c7-de233b285daa)
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/19bf8019-d25b-4a1c-8f56-91eee991a1bd)
+
 2. For each taxi colour (yellow and green):
 What was the average, median, minimum and maximum trip duration in minutes (with 2 decimals, eg. 90 seconds = 1.50 min)?
 
@@ -45,12 +52,12 @@ What was the average, median, minimum and maximum trip duration in minutes (with
 
 What was the average, median, minimum and maximum trip distance in km?
 
-![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/b8d30c44-99ea-4f58-aa14-7b4064a343e7) ![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/ba1e03d9-b02b-45b7-ac31-2d41d1e26cbd)
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/ba1e03d9-b02b-45b7-ac31-2d41d1e26cbd)
 
 
 What was the average, median, minimum and maximum speed in km per hour?
 
-![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/b8d30c44-99ea-4f58-aa14-7b4064a343e7) ![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/610962ec-d66f-4e4b-b222-d624755dd341)
+![image](https://github.com/gerardo5797/BigDataProcessingSpark/assets/88528474/610962ec-d66f-4e4b-b222-d624755dd341)
 
 
 3. What was the percentage of trips where drivers received tips?
